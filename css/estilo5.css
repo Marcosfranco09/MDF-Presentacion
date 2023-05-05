@@ -23,6 +23,7 @@
 }
 .contacto1 p:hover{
     text-decoration: underline;
+    cursor: pointer;
 }
 .ubicacion{
     text-align: center;
