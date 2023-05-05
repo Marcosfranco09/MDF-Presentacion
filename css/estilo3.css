@@ -1,0 +1,91 @@
+.cuadroblanco {
+    background-color: rgb(253, 253, 253);
+    font-family: 'Raleway', sans-serif;
+    color: rgb(252, 247, 247);
+    height: 657px;
+}
+.titulo1{
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(43, 43, 179);
+    padding-left: 30px;
+    padding-top: 15px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.tt{
+    color: rgb(43, 43, 179);
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    margin-left: 15px;
+}
+.bajotarea{
+    margin-left: 15px;
+    margin-right: 20px;
+    color: rgb(43, 43, 179);
+    height: 3px;
+    background-color: rgb(43, 43, 179);
+}
+.tarea{
+    color: black;
+    margin-left: 15px;
+    width: 500px;
+    margin-right: 15px;
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    font-size: 30px;
+    display: block;
+    float: left;
+}
+.tareass{
+    color: black;
+    float: left;
+    width: 500px;
+    list-style-type: none;
+    height: 460px;
+    padding: 25px 5px 15px 5px;
+    background-image: linear-gradient( rgb(231, 227, 227), rgb(172, 167, 167));
+    box-shadow: 0px 0px 10px 0px black;
+    overflow-y: scroll;
+}
+.tareass::-webkit-scrollbar{
+    width: 10px;
+    background-image: linear-gradient(rgb(172, 167, 167), rgb(231, 227, 227));
+}
+.tareass::-webkit-scrollbar-thumb{
+    background-color: rgb(255, 255, 255);
+}
+.item{
+    color: black;
+    font-size: 24px;;
+}
+.item1{
+    margin-bottom: 10px;
+    background-color: rgb(196, 200, 204);
+    padding-left: 10px;
+    border-left: solid 3px transparent;
+}
+.item1:hover{
+    background-color: white;
+    transition: all 200ms ease;
+    cursor: pointer;
+    font-weight: bold;
+    border-color: rgb(119, 116, 116);
+}
+.item2{
+    margin-bottom: 10px;
+    background-color: rgb(182, 185, 189);
+    padding-left: 10px;
+    border-left: solid 3px transparent;
+}
+.item2:hover{
+    background-color: white;
+    transition: all 200ms ease;
+    cursor: pointer;
+    font-weight: bold;
+    border-color: rgb(119, 116, 116);
+}

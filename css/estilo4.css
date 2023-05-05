@@ -1,0 +1,67 @@
+.info{
+    background-color: white;
+    height: 570px;
+    font-family: 'Raleway', sans-serif;
+}
+.informacion{
+    margin-left: 15px;
+    width: 610px;
+    height: 300px;
+}
+.foto{
+    height: 300px;
+    width: 300;
+    float: left;
+}
+.presentacion{
+    height: 300px;
+    width: 300;
+    border: solid 1px black;
+}
+.sobremi{
+    height: 300px;
+    width: 300px;
+    float: left;
+}
+.lista2{
+    margin-left: 0px;
+    padding-left: 15px;
+    list-style: none;
+}
+.negrita{
+    font-weight: bold;
+    color: rgb(43, 43, 179);
+    font-size: 16px;
+}
+.pading{
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+.bajofloat{
+    margin-top: 30px;
+    clear: both;
+    margin-left: 15px;
+    margin-right: 20px;
+    color: rgb(43, 43, 179);
+    height: 3px;
+    background-color: rgb(43, 43, 179);
+}
+.titulo1{
+    padding-top: 30px;
+}
+.bajosobremi{
+    margin-left: 15px;
+    margin-right: 20px;
+    color: rgb(43, 43, 179);
+    height: 3px;
+    background-color: rgb(43, 43, 179);
+    margin-bottom: 30px;
+}
+.yo{
+    margin-left: 20px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+.resaltado{
+    font-weight: bold;
+}
