@@ -222,7 +222,7 @@
     .footer-mobile p a{
         color: rgb(137, 140, 143);
     }
-    .footer-mobile p:hover {
+    .footer-mobile>p:hover {
         text-decoration: underline;
     }
     .ubicacion1{
