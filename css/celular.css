@@ -5,9 +5,24 @@
     a{
         text-decoration: none;
     }
+    html, body{
+        margin: 0;
+        padding: 0;
+        width: 327px;
+        background: url(../imagenes/celular.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        scroll-behavior: smooth;
+    }
+    body{
+        padding-top: 60px;
+    }
     .header-mobile{
         width: 440px;
         height: 60px;
+        margin-top: -60px;
         padding-top: 20px;
         background-image: linear-gradient(rgb(0, 0, 0), rgb(30, 29, 39));
         position: fixed;
@@ -26,18 +41,6 @@
     header{
         display:none;
     }
-    html, body{
-        margin: 0;
-        padding: 0;
-        width: 327px;
-        background: url(../imagenes/celular.png);
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: cover;
-        background-attachment: fixed;
-        scroll-behavior: smooth;
-    }
-    
     #principal{
         width: 430px;
         margin-left: 0px;
@@ -58,7 +61,8 @@
         font-family: 'Raleway', sans-serif;
         color: rgb(252, 247, 247);
         height: 500px;
-        width: 430;
+        width: 435;
+        background-color: white;
     }
     .marcos{
         font-size: 45px;
@@ -148,8 +152,9 @@
         font-size: 12px;
     }
     #mdf{
-        width: 420px;
+        width: 435px;
         height: 350px;
+        background-color: white;
     }
     .tarea{
         color: black;
@@ -198,5 +203,9 @@
     }
     footer{
         display: none;
+    }
+    .blanco{
+        width: 435px;
+        background-color: white;
     }
 }
