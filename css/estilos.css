@@ -2,6 +2,9 @@
     .header-mobile{
         display: none;
     }
+    .footer-mobile{
+        display: none;
+    }
 }
 *{
     box-sizing: border-box;

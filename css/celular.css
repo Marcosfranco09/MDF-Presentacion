@@ -208,4 +208,18 @@
         width: 435px;
         background-color: white;
     }
+    .footer-mobile{
+        width: 435px;
+        height: 200px;
+        background-image: linear-gradient(rgb(0, 0, 0), rgb(30, 29, 39));
+        color:  rgb(137, 140, 143);
+    }
+    .footer-mobile p {
+        margin-top: 0;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .footer-mobile p a{
+        color: rgb(137, 140, 143);
+    }
 }
