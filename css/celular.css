@@ -6,8 +6,8 @@
         text-decoration: none;
     }
     html, body{
-        margin: 0;
         padding: 0;
+        margin: 0;
         width: 327px;
         background: url(../imagenes/celular.png);
         background-repeat: no-repeat;
@@ -16,13 +16,9 @@
         background-attachment: fixed;
         scroll-behavior: smooth;
     }
-    body{
-        padding-top: 60px;
-    }
     .header-mobile{
         width: 440px;
         height: 60px;
-        margin-top: -60px;
         padding-top: 20px;
         background-image: linear-gradient(rgb(0, 0, 0), rgb(30, 29, 39));
         position: fixed;
@@ -107,7 +103,7 @@
         font-family: 'Raleway', sans-serif;
         color: rgb(43, 43, 179);
         padding-left: 5px;
-        padding-top: 15px;
+        padding-top: 75px;
         width: 400px;
         margin-top: 60px;
         margin-bottom: 0px;
