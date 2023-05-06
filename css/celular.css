@@ -75,7 +75,8 @@
         text-shadow: 3px 3px 3px black;
     }
     .estudiante{
-        font-size: 23px;
+        font-size: 22px;
+        width: 250px;
         color: rgb(255, 252, 252);
         text-align: left;
         padding-left: 10px;
@@ -87,7 +88,7 @@
         margin-bottom: 340px;
         width: 400px;
         height: 50px;
-        font-size: 23px;
+        font-size: 22px;
         color: rgb(255, 252, 252);
         line-height: 45px;
         display: flex;
