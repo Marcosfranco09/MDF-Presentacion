@@ -11,15 +11,16 @@
     html, body{
         margin: 0;
         padding: 0;
-        width: 450px;
-        height: 100%;
-        background-image: url(../imagenes/celular.png);
+        width: 327px;
+        background: url(../imagenes/celular.png);
         background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
         background-attachment: fixed;
         scroll-behavior: smooth;
     }
     #principal{
-        width: 450px;
+        width: 430px;
         margin-left: 0px;
         padding-left: 0px;
         padding-right: 0px;
@@ -27,25 +28,25 @@
     #seccion1{
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         margin: 0 auto;
-        margin-left: 20px;
+        margin-left: 0px;
     }
     .info{
-        width: 450px;
+        width: 430px;
         height: 570px;
         font-family: 'Raleway', sans-serif;
     }
     .cuadroblanco {
         font-family: 'Raleway', sans-serif;
         color: rgb(252, 247, 247);
-        height: 450px;
-        height: 657px;
+        height: 500px;
+        width: 430;
     }
     .marcos{
         font-size: 45px;
         width: 400px;
         color: white;
         text-align: left;
-        padding-left: 10px;
+        padding-left: 5px;
         margin-top: 330px;
         padding-top: 0px;
         margin-bottom: 0px;
@@ -64,7 +65,7 @@
     }
     .contenedor{
         margin-bottom: 340px;
-        width: 962px;
+        width: 430px;
         height: 50px;
         font-size: 23px;
         color: rgb(255, 252, 252);
@@ -73,18 +74,23 @@
         text-shadow: 3px 3px 3px black;
         overflow: hidden;
     }
+    .informacion{
+        margin-left: 5px;
+        width: 430px;
+        height: 300px;
+    }
     .titulo1{
         font-size: 30px;
         font-family: 'Raleway', sans-serif;
         color: rgb(43, 43, 179);
-        padding-left: 15px;
+        padding-left: 5px;
         padding-top: 15px;
-        width: 100%;
+        width: 400px;
         margin-top: 0px;
         margin-bottom: 0px;
     }
     .yo{
-        margin-left: 15px;
+        margin-left: 5px;
         margin-bottom: 15px;
         font-size: 12px;
         width: 400px;
@@ -123,13 +129,13 @@
         font-size: 12px;
     }
     #mdf{
-        width: 450px;
+        width: 420px;
         height: 350px;
     }
     .tarea{
         color: black;
-        margin-left: 15px;
-        width: 450px;
+        margin-left: 5px;
+        width: 400px;
         margin-right: 15px;
         margin-top: 15px;
         padding-left: 5px;
@@ -143,14 +149,14 @@
     }
     .tareass{
         color: black;
-        width: 430px;
+        width: 390px;
         list-style-type: none;
         height: 230px;
         padding: 15px 5px 15px 5px;
         background-image: linear-gradient( rgb(231, 227, 227), rgb(172, 167, 167));
         box-shadow: 0px 0px 10px 0px black;
         overflow-y: scroll;
-        margin-left: 15px;
+        margin-left: 5px;
     }
     .bajofloat{
         display: none;
