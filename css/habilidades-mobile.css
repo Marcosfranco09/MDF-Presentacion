@@ -1,0 +1,81 @@
+.caja-padre2{
+    width: 40%;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.about-me_mobile{
+    display: flex;
+}
+.contain2{
+    width: 100%;
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 15px 15px 25px;
+}
+.contain2 h2{
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 12px;
+}
+.skills2:not(:last-child){
+    margin-bottom: 18px;
+}
+.detalles2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.menu2{
+    border: 1px solid rgb(43, 43, 179);
+    border-radius: 20px;
+}
+.menu2 div{
+    width: 0;
+    height: 4px;
+    border-radius: 10%;
+    background-color: rgb(43, 43, 179);
+}
+#html-menu2{
+    animation: html2 2s forwards;
+}
+@keyframes html2{
+    100%{
+        width: 85%;
+    }
+}
+#css-menu2{
+    animation: css2 2s forwards;
+}
+@keyframes css2{
+    100%{
+        width: 50%;
+    }
+}
+#js-menu2{
+    animation: js2 2s forwards;
+}
+@keyframes js2{
+    100%{
+        width: 10%;
+    }
+}
+#ps-menu2{
+    animation: ps2 2s forwards;
+}
+@keyframes ps2{
+    100%{
+        width: 60%;
+    }
+}
+#wp-menu2{
+    animation: wp2 2s forwards;
+}
+@keyframes wp2{
+    100%{
+        width: 40%;
+    }
+}

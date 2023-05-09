@@ -1,0 +1,82 @@
+.caja-padre{
+    width: 60%;
+    display: inline-block;
+    margin-left: 20px;
+}
+.about-me{
+    display: flex;
+}
+.contain{
+    width: 100%;
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 30px 30px 50px;
+}
+.contain h2{
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 34px;
+}
+.skills:not(:last-child){
+    margin-bottom: 30px;
+}
+.detalles{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.menu{
+    position: relative;
+    border: 1px solid rgb(43, 43, 179);
+    border-radius: 20px;
+}
+.menu div{
+    position: relative;
+    width: 0;
+    height: 4px;
+    border-radius: 10%;
+    background-color: rgb(43, 43, 179);
+}
+#html-menu{
+    animation: html 2s forwards;
+}
+@keyframes html{
+    100%{
+        width: 85%;
+    }
+}
+#css-menu{
+    animation: css 2s forwards;
+}
+@keyframes css{
+    100%{
+        width: 50%;
+    }
+}
+#js-menu{
+    animation: js 2s forwards;
+}
+@keyframes js{
+    100%{
+        width: 10%;
+    }
+}
+#ps-menu{
+    animation: ps 2s forwards;
+}
+@keyframes ps{
+    100%{
+        width: 60%;
+    }
+}
+#wp-menu{
+    animation: wp 2s forwards;
+}
+@keyframes wp{
+    100%{
+        width: 40%;
+    }
+}

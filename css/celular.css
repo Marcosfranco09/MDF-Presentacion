@@ -16,16 +16,28 @@
         background-attachment: fixed;
         scroll-behavior: smooth;
     }
+    .caja{
+        display: none;
+    }
     .contenedor{
         display: none;
-        
+    }
+    .marcos{
+        display: none;
+    }
+    .informacion{
+        display: none;
+    }
+    .contain{
+        display: none;
     }
     .header-mobile{
-        width: 440px;
+        width: 100%;
         height: 60px;
         padding-top: 20px;
         background-image: linear-gradient(rgb(0, 0, 0), rgb(30, 29, 39));
         position: fixed;
+        overflow: hidden;
     }
     .lista1-mobile{
         margin-left: 55px;
@@ -51,12 +63,13 @@
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         margin: 0 auto;
         margin-left: 0px;
-        width: 435px;
+        width: 100%;
+        height: 100%;
     }
     .info{
         width: 430px;
-        height: 570px;
         font-family: 'Raleway', sans-serif;
+        padding-bottom: 25px;
     }
     .cuadroblanco {
         font-family: 'Raleway', sans-serif;
@@ -65,7 +78,7 @@
         width: 435;
         background-color: white;
     }
-    .marcos{
+    .marcos1{
         font-size: 45px;
         width: 400px;
         color: white;
@@ -91,10 +104,25 @@
         text-shadow: 3px 1px 3px black;
         margin-bottom: 340px;
     }
-    .informacion{
-        margin-top: 15px;
-        width: 415px;
-        height: 300px;
+    .for__mobile{
+        animation-name: aparicion1;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+    }
+    @keyframes aparicion1{
+        0%,50%{opacity: 0;}
+        100%{opacity: 1;}
+    }
+    .informacion2{
+        width: 200px;
+        position: static;
+        margin-top: 10px;
+        margin-left: 15px;
+        display: inline-block;
+        border: 1px solid black;
+        border-radius: 15px;
+        overflow: hidden;
+        background-color: beige;
     }
     .titulo1{
         text-align: center;
@@ -104,8 +132,17 @@
         padding-left: 5px;
         padding-top: 70px;
         width: 400px;
-        margin-top: 60px;
         margin-bottom: 0px;
+    }
+    .titulo2{
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Raleway', sans-serif;
+        color: rgb(43, 43, 179);
+        padding-left: 5px;
+        width: 400px;
+        margin-bottom: 0px;
+        padding-top: 70px;
     }
     .yo{
         text-align: center;
@@ -116,40 +153,36 @@
     .bajosobremi{
     display: none;
     }
-    .presentacion{
+    .presentacion2{
         height: 200px;
         width: 200;
         border: solid 1px black;
     }
-    .foto{
+    .foto2{
         height: 200px;
         width: 200px;
-        float: left;
     }
-    .sobremi{
-        padding-top: 30px;
-        height: 200px;
+    .sobremi2{
+        margin-top: 5px ;
         width: 200px;
-        float: left;
     }
-    .lista2{
+    .lista22{
         margin-left: 0px;
         margin-top: 4px;
         padding-left: 15px;
         list-style: none;
     }
-    .negrita{
+    .negrita2{
         font-weight: bold;
         color: rgb(43, 43, 179);
         font-size: 12px;
     }
-    .pading{
+    .pading2{
         margin-bottom: 15px;
         font-size: 12px;
     }
     #mdf{
         width: 435px;
-        height: 350px;
         background-color: white;
     }
     .tarea{
@@ -159,7 +192,7 @@
         width: 400px;
         margin:0 auto;
         padding-left: 5px;
-        padding-bottom: 10px;
+        padding-bottom: 30px;
         padding-right: 10px;
         padding-top: 0px;
         font-size: 14px;
@@ -191,11 +224,25 @@
         padding-left: 10px;
         border-left: solid 3px transparent;
     }
+    .item1:hover{
+        background-color: white;
+        transition: all 200ms ease;
+        cursor: pointer;
+        font-weight: bold;
+        border-color: rgb(119, 116, 116);
+    }
     .item2{
         margin-bottom: 10px;
         background-color: rgb(182, 185, 189);
         padding-left: 10px;
         border-left: solid 3px transparent;
+    }
+    .item2:hover{
+        background-color: white;
+        transition: all 200ms ease;
+        cursor: pointer;
+        font-weight: bold;
+        border-color: rgb(119, 116, 116);
     }
     footer{
         display: none;
