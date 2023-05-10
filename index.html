@@ -42,9 +42,12 @@
             </div>
     </header>
     <div class="header-mobile">
+        <p><i class="fa-solid fa-code"></i></i>Marcos Franco</p>
+        <hr class="encabezado">
         <a href="#"class="lista1-mobile"><i class="fa-solid fa-house"></i> Inicio</a>
         <a href="#mdf" class="lista1-mobile"><i class="fa-solid fa-user"></i> MDF</a>
         <a href="#seccion2"class="lista1-mobile"><i class="fa-solid fa-book"></i> Tareas</a>
+        <a href="#contacto"class="lista1-mobile"><i class="fa-solid fa-phone "></i> Contacto</a>
     </div>
     <div id="principal">
                 <section id="seccion1">
@@ -294,7 +297,29 @@
                     </section>
                 </div>
     </div>
-    <div class="footer-mobile">
+    <div class="footer-mobile" id="contacto">
+        <div class="formulario">
+            <form action="https://formsubmit.co/marcosfranco031@gmail.com" method="POST">
+                <h3>Contacto</h3>
+
+                <label for="nombre" class="celda">Nombre:</label>
+                <input type="text" name="Nombre" id="nombre" placeholder="Ejemplo: Juan">
+
+                <label for="apellido" class="celda">Apellido:</label>
+                <input type="text" name="Apellido" id="apellido" placeholder="Ejemplo: Rios">
+
+                <label for="mail" class="celda">Email:</label>
+                <input type="email" name="Email" id="mail" placeholder="Ejemplo:your@email.com">
+                
+                <label for="nro" class="celda">Telefono:</label>
+                <input type="text" name="Numero" id="nro" placeholder="Ejemplo: +595 981 111 111">
+
+                <label for="msj" class="celda">Mensaje</label>
+                <textarea name="Mensaje" id="msj" cols="30" rows="10" placeholder="Escriba un mensaje..."></textarea>
+
+                <input type="submit" value="Enviar Mensaje" class="btn">
+            </form>
+        </div>
         <p>
             <i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i> WhatsApp: <a href="https://api.whatsapp.com/send/?phone=%2B595981761189&text&type=phone_number&app_absent=0" 
             target="_blank">+595 981 761 189</a> 
