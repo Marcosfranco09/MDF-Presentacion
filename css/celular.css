@@ -34,6 +34,24 @@
     .btn-menu{
         display: none;
     }
+    .btn-menu{
+        display: none;
+    }
+    #header-table{
+        display: none;
+    }
+    .header1{
+        display: none;
+    }
+    .img2{
+        display: none;
+    }
+    .tablet1{
+        display: none;
+    }
+    #btn-menu{
+        display: none;
+    }
     .header-mobile{
         width: 100%;
         padding-bottom: 20px ;
