@@ -82,7 +82,7 @@
     outline: none;
 }
 .formulario input::selection{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.685);
     color:black;
 }
 .formulario label{
@@ -105,6 +105,10 @@
     max-width: 400px;
     min-height: 150px;
     max-height: 150px;
+}
+.formulario textarea::selection{
+    background-color: rgba(255, 255, 255, 0.685);
+    color: black;
 }
 .formulario input::placeholder, textarea::placeholder{
     color: rgb(182, 179, 179);
