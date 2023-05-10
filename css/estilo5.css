@@ -69,6 +69,8 @@
 }
 .formulario input{
     background-color: rgba(49, 49, 49, 0.521);
+    color: rgb(226, 223, 223);
+    font-size: 16px;
     border: 1px solid rgb(180, 177, 177);
     width: 400px;
     height: 40px;
@@ -78,6 +80,10 @@
     padding-left: 10px;
     padding-right: 10px;
     outline: none;
+}
+.formulario input::selection{
+    background-color: rgb(255, 255, 255);
+    color:black;
 }
 .formulario label{
     text-align: left;
