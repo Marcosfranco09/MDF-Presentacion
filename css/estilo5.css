@@ -80,6 +80,10 @@
     padding-left: 10px;
     padding-right: 10px;
     outline: none;
+    transition: all 300ms ease;
+}
+.formulario input:hover{
+    transform: scale(1.01);
 }
 .formulario input::selection{
     background-color: rgba(255, 255, 255, 0.685);
@@ -105,6 +109,10 @@
     max-width: 400px;
     min-height: 150px;
     max-height: 150px;
+    transition: all 300ms ease;
+}
+.formulario textarea:hover{
+    transform: scale(1.01);
 }
 .formulario textarea::selection{
     background-color: rgba(255, 255, 255, 0.685);
