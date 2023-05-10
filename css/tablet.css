@@ -1,4 +1,4 @@
-@media(max-width:1280px){
+@media(max-width:1024px) and (min-width:425px){
     header{
         display: none;
     }
@@ -11,5 +11,104 @@
     }
     body{
         background-size: 100% 100%;
+    }
+    .nombre_a{
+        font-size: 13px;
+        padding-top: 40px;
+    }
+    .btn-menu{
+        font-size: 20px;
+        color: rgb(187, 185, 185);
+        background-image: linear-gradient(rgb(32, 32, 37), rgb(60, 60, 61));
+        float: right;
+        box-shadow: 0px 0px 0px white;
+        padding: 10px;
+        border-radius: 50%;
+        margin: 20px;
+        position: fixed;
+        z-index: 10;
+    }
+    #btn-menu:checked ~ .container-menu{
+        opacity: 1;
+        visibility: visible;
+    }
+    .header1{
+        width: 100%;
+        max-width: 270px;
+        background-image: linear-gradient(rgb(0, 0, 0), rgb(30, 29, 39));
+        height: 100vh;
+        position: relative;
+        transition: all 500ms ease;
+        overflow: hidden;
+        transform: translateX(-100%);
+    }
+    #btn-menu:checked ~ .container-menu .header1{
+        transform: translateX(0%);
+    }
+    .header1 label{
+        color: white;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        font-size: 12px;
+    }
+    .container-menu{
+        background-color: rgba(0, 0, 0, 0.411);
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        transition: all 500ms ease;
+        opacity: 0;
+        visibility: hidden;
+        position: fixed;
+        z-index: 10;
+    }
+    .lista1{
+        font-size: 20px;
+    }
+    #btn-menu{
+        display: none;
+    }
+    .texto1{
+        color: rgb(194, 200, 204);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 31px;
+        margin-top: 5px;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .img2{
+        width: 150px;
+        height: 150px;
+        border-radius:100%;
+        margin: 25px 70px;
+        margin-left: 20%;
+        margin-bottom: 0;
+        border: solid;
+        border-color: #374652;
+        border-width: 6px;
+        opacity: 0.8;
+    }
+    .informacion{
+        width: 40%;
+        margin-left: 30px;
+        display: inline-block;
+        border: 1px solid black;
+        border-radius: 15px;
+        overflow: hidden;
+        background-color: beige;
+    }
+    .card-box{
+        width: 30%;
+    }
+    .about-me{
+        padding-right: 20px;
+    }
+    .contacto1{
+        display: none;
+    }
+    .formulario{
+        margin-left: 20%;
     }
 }

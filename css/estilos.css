@@ -21,6 +21,23 @@
         display: none;
     }
 }
+@media(min-width:1024px){
+    .btn-menu{
+        display: none;
+    }
+    #header-table{
+        display: none;
+    }
+    .header1{
+        display: none;
+    }
+    .img2{
+        display: none;
+    }
+    .tablet1{
+        display: none;
+    }
+}
 *{
     box-sizing: border-box;
 }
