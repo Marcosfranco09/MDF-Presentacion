@@ -54,7 +54,7 @@
     }
     .header-mobile{
         width: 100%;
-        padding-bottom: 20px ;
+        padding-bottom: 10px ;
         background-image: linear-gradient(rgb(0, 0, 0), rgb(30, 29, 39));
         position: fixed;
         overflow: hidden;
@@ -287,6 +287,7 @@
         background-color: white;
     }
     .footer-mobile{
+        font-family: 'Raleway', sans-serif;
         padding-top: 45px;
         width: 435px;
         background-image: linear-gradient(rgb(0, 0, 0), rgb(30, 29, 39));
@@ -311,6 +312,7 @@
         display: block;
     }
     .formulario1{
+        font-family: 'Raleway', sans-serif;
         width: 100%;
         background-color: rgba(245, 245, 220, 0);
         display: inline-block;
