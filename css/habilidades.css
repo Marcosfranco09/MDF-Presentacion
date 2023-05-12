@@ -8,10 +8,10 @@
 }
 .contain{
     width: 100%;
-    background-color: beige;
+    background-color: rgb(245, 245, 220);
     border: 1px solid black;
     border-radius: 15px;
-    padding: 30px 30px 50px;
+    padding: 30px 30px 100px;
 }
 .contain h2{
     margin-bottom: 50px;
