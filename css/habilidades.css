@@ -2,6 +2,7 @@
     width: 60%;
     display: inline-block;
     margin-left: 20px;
+    max-width: 633px;
 }
 .about-me{
     display: flex;

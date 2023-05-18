@@ -11,6 +11,7 @@
     border-radius: 15px;
     overflow: hidden;
     background-color: beige;
+    max-width: 304px;
 }
 .foto{
     height: 300px;
