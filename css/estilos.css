@@ -118,6 +118,7 @@ header{
     margin-top: 10px;
     list-style-type: none;
     margin-left: 0px;
+    transition: all .3s ease;
 } 
 .lista1:hover{
     color: rgb(255, 255, 255);
