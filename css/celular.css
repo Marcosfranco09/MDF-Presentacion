@@ -59,6 +59,7 @@
         position: fixed;
         overflow: hidden;
         text-align: center;
+        z-index: 10;
     }
     .lista1-mobile{
         margin: 0 10px;
@@ -317,7 +318,7 @@
         display: inline-block;
         padding: 30px 30px;
         border-radius: 15px;
-        padding-left: 25px;
+        padding-left: 20px;
         padding-bottom: 15px;
         color: rgb(221, 218, 218);
     }
