@@ -82,7 +82,7 @@
     color: black;
 }
 .foto-invisible {
-    border-radius: 10px 10px 10px 10px !important;
+    border-radius: 7px 7px 7px 7px !important;
     top: 20px;
     position: absolute;
     width: 150px !important;
