@@ -52,6 +52,9 @@
     .cv{
         display: none;
     }
+    .foto-invisible{
+        display: none;
+    }
     .header-mobile{
         width: 100%;
         padding-bottom: 10px ;

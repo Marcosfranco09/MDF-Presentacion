@@ -2,6 +2,9 @@
     header{
         display: none;
     }
+    .foto-invisible{
+        display: none;
+    }
     #principal{
         margin-left: 0px;
     }
