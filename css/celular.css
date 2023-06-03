@@ -55,6 +55,9 @@
     .foto-invisible{
         display: none;
     }
+    .fotoinvisible{
+        display: none;
+    }
     .header-mobile{
         width: 100%;
         padding-bottom: 10px ;
