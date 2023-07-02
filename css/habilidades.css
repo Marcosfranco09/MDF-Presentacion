@@ -90,6 +90,14 @@
         width: 40%;
     }
 }
+#js-menu{
+    animation: js 2s forwards;
+}
+@keyframes js{
+    100%{
+        width: 10%;
+    }
+}
 #ps-menu{
     animation: ps 2s forwards;
 }
