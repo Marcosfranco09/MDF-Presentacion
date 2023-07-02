@@ -57,12 +57,37 @@
         width: 50%;
     }
 }
-#js-menu{
-    animation: js 2s forwards;
+
+#bs-menu{
+    animation: css 2s forwards;
 }
-@keyframes js{
+@keyframes css{
+    100%{
+        width: 70%;
+    }
+}
+#bs-menu{
+    animation: bs 2s forwards;
+}
+@keyframes bs{
     100%{
         width: 10%;
+    }
+}
+#py-menu{
+    animation: py 2s forwards;
+}
+@keyframes py{
+    100%{
+        width: 40%;
+    }
+}
+#dj-menu{
+    animation: dj 2s forwards;
+}
+@keyframes dj{
+    100%{
+        width: 40%;
     }
 }
 #ps-menu{
@@ -73,11 +98,4 @@
         width: 60%;
     }
 }
-#wp-menu{
-    animation: wp 2s forwards;
-}
-@keyframes wp{
-    100%{
-        width: 40%;
-    }
-}
+
